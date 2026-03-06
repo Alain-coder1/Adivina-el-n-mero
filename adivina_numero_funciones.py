@@ -1,7 +1,7 @@
 import random
 
 def pedir_numero():
-    """Pide un número válido entre 1 y 100 y lo devuelve como entero."""
+    #Pide un número válido entre 1 y 100 y lo devuelve como entero.
     while True:
         entrada = input("Introduce un número entre 1 y 100: ")
 
@@ -19,7 +19,7 @@ def pedir_numero():
 
 
 def jugar_partida():
-    """Ejecuta una partida completa y devuelve el número de intentos."""
+    #Ejecuta una partida completa y devuelve el número de intentos.
     numero_secreto = random.randint(1, 100)
     intentos = 0
 
@@ -41,7 +41,7 @@ def jugar_partida():
 
 
 def main():
-    """Controla el flujo general del juego y el récord."""
+   #Controla el flujo general del juego y el récordpersonal.
     best_score = None
     seguir_jugando = "s"
 
